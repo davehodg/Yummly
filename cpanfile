@@ -3,6 +3,7 @@ requires 'URL::Encode';
 requires 'JSON';
 requires 'Mozilla::CA';
 requires 'Hash::MultiValue';
+requires 'WebService::Simple';
 requires 'Pod::Coverage';
 requires 'Pod::Coverage::TrustPod';
 requires 'Test::CPAN::Meta';
