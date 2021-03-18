@@ -26,6 +26,6 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install Dependencies
-        run: cpanm i--installdeps .
+        run: cpanm --installdeps .
       - name: Run Tests
         run: prove -l t
