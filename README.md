@@ -1,3 +1,6 @@
+![Yummly](https://github.com/davehodg/Yummly/actions/workflows/linux.yml/badge.svg)
+
+
 Webservice-Yummly
 =================
 
