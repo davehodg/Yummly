@@ -10,7 +10,7 @@ use URL::Encode;
 use LWP::UserAgent ;
 use Data::Dumper;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub new {
     my ($class, $APP_KEY, $id) = @_ ;
