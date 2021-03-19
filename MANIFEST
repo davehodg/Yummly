@@ -1,5 +1,6 @@
-.travis.yml
+.github/workflows/linux.yml
 Changelog
+cpanfile
 etc/get_yummly.pl
 lib/WebService/Yummly.pm
 Makefile.PL
