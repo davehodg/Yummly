@@ -75,7 +75,8 @@ WebService::Yummly - Simple interface to the search and recipe interface to Yumm
   use WebService::Yummly;
 
   # use your ID/key here
-  my $APP_KEY = "a3cec319936cdf2fb03f4b0f5dfdaf4e";
+  my $APP_KEY = $ENV{APPKEY};
+  warn $APP_KEY;
   my $y = WebService::Yummly->new($APP_KEY);
   my $recipes = $y->search("lamb shank");
 

@@ -1,4 +1,5 @@
 
+
 BEGIN {
     unless ($ENV{RELEASE_TESTING}) {
         require Test::More;
@@ -14,4 +15,4 @@ use Test::More;
 eval 'use Test::NoTabs';
 plan skip_all => 'Test::NoTabs required' if $@;
 
-all_perl_files_ok();
+all_perl_files_ok('lib/');
